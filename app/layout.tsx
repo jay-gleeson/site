@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Space_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const font = Space_Mono({
+  weight:["400", "700"],
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: "--font-space-mono",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -25,8 +22,23 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${font.variable} antialiased`}
+        style={{
+          fontFamily: "var(--font-space-mono)",
+          backgroundColor: "#1F1F29",
+          color: "#1D1821",
+        }}
       >
+        <div className="flex items-center justify-center min-h-screen bg-gray-100">
+          <div className="bg-white rounded-lg shadow-md p-6 text-center max-w-md w-full">
+            <h1 className="text-5xl font-bold" style={{ color: "#AB7ADB" }}>
+              HomePage
+            </h1>
+            <div className="mt-4 text-lg" style={{ color: "#AB7ADB" }}>
+              Welcome to my site! Please be patient, it will arrive soon enough.
+            </div>
+          </div>
+        </div>
         {children}
       </body>
     </html>
