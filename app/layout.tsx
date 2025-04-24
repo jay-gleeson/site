@@ -29,18 +29,44 @@ export default function RootLayout({
           color: "#1D1821",
         }}
       >
-        <div className="flex items-center justify-center min-h-screen bg-gray-100">
-          <div className="bg-white rounded-lg shadow-md p-6 text-center max-w-md w-full">
-            <h1 className="text-5xl font-bold" style={{ color: "#AB7ADB" }}>
-              HomePage
-            </h1>
-            <div className="mt-4 text-lg" style={{ color: "#AB7ADB" }}>
-              Welcome to my site! Please be patient, it will arrive soon enough.
-            </div>
-          </div>
-        </div>
+        <Header />
         {children}
       </body>
     </html>
+  );
+}
+function Header() {
+  return (
+    <header className="flex items-center justify-between px-6 py-4 bg-gray-800 text-white">
+      <div className="flex items-center">
+        <button className="ml-4 flex items-center justify-center w-8 h-8 rounded-full hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-purple-400">
+            <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-6 h-6 text-white"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={2}
+            >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+            </svg>
+        </button>
+      </div>
+      <nav className="flex space-x-6">
+        <a href="#home" className="hover:text-purple-400">
+          Home
+        </a>
+        <a href="#about" className="hover:text-purple-400">
+          About
+        </a>
+        <a href="#contact" className="hover:text-purple-400">
+          Contact
+        </a>
+      </nav>
+    </header>
   );
 }
