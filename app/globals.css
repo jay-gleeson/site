@@ -1,15 +1,12 @@
 @import "tailwindcss";
 
 html {
-    background-color: #1f1f29;
-  }
-  body {
     background-color: #1d1821;
+}
+body {
+    background-color: #1f1f29;
     color: #ffffff;
-  }
-  header {
+}
+header {
     background-color: #1f1f29;
-  }
-  .flex.items-center.justify-center.min-h-screen {
-    background-color: #1d1821;
-  }
+}

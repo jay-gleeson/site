@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${font.variable} antialiased`}
+        className={`${font.variable} antialiased min-h-screen overflow-hidden`}
         style={{
           fontFamily: "var(--font-space-mono)",
           backgroundColor: "#1F1F29",
@@ -39,21 +39,14 @@ function Header() {
   return (
     <header className="flex items-center justify-between px-6 py-4 bg-gray-800 text-white">
       <div className="flex items-center">
-        <button className="ml-4 flex items-center justify-center w-8 h-8 rounded-full hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-purple-400">
-            <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-6 h-6 text-white"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-            >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M4 6h16M4 12h16M4 18h16"
+        <button
+          className="ml-4 flex items-center justify-center w-12 h-12 rounded-[2rem] hover:bg-purple-400 bg-[#1D1821]"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg"
+            alt="Menu"
+            className="w-6 h-6 filter invert"
           />
-            </svg>
         </button>
       </div>
       <nav className="flex space-x-6">
