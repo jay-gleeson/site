@@ -21,44 +21,29 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${font.variable} antialiased min-h-screen overflow-hidden`}
-        style={{
-          fontFamily: "var(--font-space-mono)",
-          backgroundColor: "#1F1F29",
-          color: "#1D1821",
-        }}
-      >
+      <body className={font.variable}>
         <Header />
         {children}
       </body>
     </html>
   );
 }
+
 function Header() {
   return (
-    <header className="flex items-center justify-between px-6 py-4 bg-gray-800 text-white">
-      <div className="flex items-center">
-        <button
-          className="ml-4 flex items-center justify-center w-12 h-12 rounded-[2rem] hover:bg-purple-400 bg-[#1D1821]"
-        >
+    <header>
+      <div>
+        <button className="menu-button">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg"
             alt="Menu"
-            className="w-6 h-6 filter invert"
           />
         </button>
       </div>
-      <nav className="flex space-x-6">
-        <a href="#home" className="hover:text-purple-400">
-          Home
-        </a>
-        <a href="#about" className="hover:text-purple-400">
-          About
-        </a>
-        <a href="#contact" className="hover:text-purple-400">
-          Contact
-        </a>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
   );
