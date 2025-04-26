@@ -24,6 +24,7 @@ export default function RootLayout({
       <body className={font.variable}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
@@ -34,10 +35,10 @@ function Header() {
     <header>
       <div>
         <button className="menu-button">
-          <img
+          <a href="#home"><img
             src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg"
             alt="Menu"
-          />
+          /></a>
         </button>
       </div>
       <nav>
@@ -46,5 +47,15 @@ function Header() {
         <a href="#contact">Contact</a>
       </nav>
     </header>
+  );
+}
+
+function Footer() {
+  return (
+    <footer>
+      <div className="footer-content">
+        <p>© 2025 Jay G</p>
+      </div>
+    </footer>
   );
 }

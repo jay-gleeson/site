@@ -1,7 +1,21 @@
 @import "tailwindcss";
 
+
+:root {
+    --font-space-mono: 'Space Mono', monospace;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-roboto-mono: 'Roboto Mono', monospace;
+    --font-jetbrains-mono: 'JetBrains Mono', monospace;
+
+    --main-color:#ab7bdb;
+    --off-white: #d1d1e9;
+    --background-color: #1d1821;
+    --card-color: #1f1f29;
+    --card-color-dark: #12121a;
+}
+
 body, html {
-    background-color: #1d1821;
+    background-color: var(--background-color);
     margin: 0;
     height: 100%;
     display: flex;
@@ -12,7 +26,7 @@ body, html {
 
 body {
     font-family: var(--font-space-mono);
-    color: #ffffff;
+    color: var(--off-white);
     min-height: 100vh;
     overflow: hidden;
     -webkit-font-smoothing: antialiased;
@@ -25,35 +39,39 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin-top: 4rem; /* Adjusted to give space for the header */
+    margin-top: 4rem; 
     padding: 0 1rem;
 }
 
 .container .card {
-    background-color: #1f1f29;
-    border-radius: 0.5rem;
+    background-color: var(--card-color);
+    border-radius: 2rem;
     padding: 2rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     margin: 2rem auto;
-    color: #ffffff;
+    color: var(--off-white);
+}
+
+.container .card:hover {
+    box-shadow: 0 0 .3rem var(--card-color-dark);
+    transition: box-shadow 0.3s;
 }
 
 .container .card .title {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #AB7BDB;
+    color: var(--main-color);
     font-weight: bold;
 }
 
 .container .card .description {
     font-size: 1rem;
     line-height: 1.5;
-    color: #d1d1e9;
-    background-color: #1d1821 !important; /* Background color for the description */
-    padding: 1rem; /* Some padding to give it space inside */
-    border-radius: 1.5rem; /* Makes the "squircle" effect */
-    margin-top: 1.5rem; /* Adds space between the title and description */
+    color: var(--off-white);
+    background-color: var(--background-color) !important;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 header {
@@ -65,9 +83,14 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1rem 1.5rem;
-    background-color: #1f1f29;
-    color: white;
+    background-color: var(--card-color);
+    color: var(--off-white);
     z-index: 10;
+}
+
+header:hover {
+    box-shadow: 0 0 .3rem var(--card-color-dark);
+    transition: box-shadow 0.3s;
 }
 
 header .menu-button {
@@ -83,7 +106,7 @@ header .menu-button {
 }
 
 header .menu-button:hover {
-    background-color: #AB7BDB;
+    background-color: var(--main-color);
 }
 
 header .menu-button img {
@@ -104,5 +127,29 @@ header nav a {
 }
 
 header nav a:hover {
-    color: #AB7BDB;
+    color: var(--main-color);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: .5rem;
+    background-color: var(--card-color);
+    z-index: 10;
+}
+
+footer:hover {
+    box-shadow: 0 0 .3rem var(--card-color-dark);
+    transition: box-shadow 0.3s;
+}
+
+footer .footer-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--card-color-dark);
+    justify-content: flex-start;
+    text-align: left;
 }
