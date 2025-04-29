@@ -3,7 +3,7 @@ import { Space_Mono } from "next/font/google";
 import "./globals.css";
 
 const font = Space_Mono({
-  weight:["400", "700"],
+  weight: ["400", "700"],
   subsets: ["latin"],
   variable: "--font-space-mono",
   display: "swap",
@@ -35,10 +35,12 @@ function Header() {
     <header>
       <div>
         <button className="menu-button">
-          <a href="#home"><img
-            src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg"
-            alt="Menu"
-          /></a>
+          <a href="#home">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg"
+              alt="Menu"
+            />
+          </a>
         </button>
       </div>
       <nav>
