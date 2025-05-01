@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 
+type TabKey = keyof typeof tabConfig;
+
 const ProfileTab = () => (
   <div>
     <p>Hi! I'm Jay!</p>
@@ -88,7 +90,7 @@ const tabConfig = {
   },
 };
 
-export default function Page() {
+export default function Home() {
   const [activeTab, setActiveTab] = useState<keyof typeof tabConfig>("Profile");
 
   return (

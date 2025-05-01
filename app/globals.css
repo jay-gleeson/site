@@ -42,7 +42,7 @@ header {
     z-index: 10;
 }
 
-header:hover {
+header:hover, footer:hover {
     box-shadow: 0 0 0.3rem var(--card-color-dark);
     transition: box-shadow 0.3s;
 }
@@ -189,11 +189,6 @@ footer {
     padding: 0.5rem;
     background-color: var(--card-color);
     z-index: 10;
-}
-
-footer:hover {
-    box-shadow: 0 0 0.3rem var(--card-color-dark);
-    transition: box-shadow 0.3s;
 }
 
 footer .footer-content {
