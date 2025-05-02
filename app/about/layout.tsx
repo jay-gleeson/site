@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Space_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const font = Space_Mono({
   weight: ["400", "700"],
