@@ -30,8 +30,9 @@
 ## Deployment ***
 This project can be deployed on platforms like **Vercel** or any other hosting service that supports Next.js.
 
-## Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests.
+## Acknowledgments
+- **Figma**: [Figma](https://www.figma.com/) was used to create and design the UI elements.
+- **Icons8**: [Icons8](https://icons8.com/) provided the icons used in this project.
 
 ---
 
