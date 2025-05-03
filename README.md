@@ -32,7 +32,12 @@ This project can be deployed on platforms like **Vercel** or any other hosting s
 
 ## Acknowledgments
 - **Figma**: [Figma](https://www.figma.com/) was used to create and design the UI elements.
-- **Icons8**: [Icons8](https://icons8.com/) provided the icons used in this project.
+- **Wikimedia Commons**: [Wikimedia Commons](https://commons.wikimedia.org/wiki/) provided the icons used in this project.
+
+## Site Images
+<img width="33%" alt="Image" src="https://github.com/user-attachments/assets/d4aeda2d-f853-4fae-9274-c632f149b1ae" />
+<img width="33%" alt="Image" src="https://github.com/user-attachments/assets/be9f74d9-85c6-41e7-9e57-0281897679f1" />
+<img width="33%" alt="Image" src="https://github.com/user-attachments/assets/f42a9261-b271-4490-9023-b9bba5a30973" />
 
 ---
 
