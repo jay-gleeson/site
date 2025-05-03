@@ -1,5 +1,7 @@
+import React from "react";
 import type { Metadata } from "next";
 import { Space_Mono } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
 
 const font = Space_Mono({
@@ -35,18 +37,18 @@ function Header() {
     <header>
       <div>
         <button className="menu-button">
-          <a href="/home">
+          <Link href="/">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg"
               alt="Menu"
             />
-          </a>
+          </Link>
         </button>
       </div>
       <nav>
-        <a href="/home">Home</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+        <Link href="/contact">Contact</Link>
       </nav>
     </header>
   );
@@ -56,7 +58,15 @@ function Footer() {
   return (
     <footer>
       <div className="footer-content">
-        <p>© 2025 Jay G</p>
+        <div>© 2025 Jay G</div>
+        <div className="social-icons">
+          <a href="https://www.linkedin.com/in/jay-glee" target="_blank" rel="noopener noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/jay-gleeson" target="_blank" rel="noopener noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" />
+          </a>
+        </div>
       </div>
     </footer>
   );

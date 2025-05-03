@@ -97,7 +97,9 @@ export default function Home() {
     <div className="container">
       <div className="main-frame">
         <div className="sidebar">
-          <img className="profile-pic" src="profile.jpg" alt="Profile" />
+          <div className="profile-pic">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Font_Awesome_5_solid_user.svg" alt="Profile" />
+          </div>
           {Object.keys(tabConfig).map((tab) => (
             <div
               key={tab}
