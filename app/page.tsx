@@ -2,8 +2,10 @@
 
 import { useState } from "react";
 
+// Defines type for tab keys based on the tabConfig object
 type TabKey = keyof typeof tabConfig;
 
+// Main page profile tab component
 const ProfileTab = () => (
   <div>
     <p>Hi! I'm Jay!</p>
@@ -14,6 +16,7 @@ const ProfileTab = () => (
   </div>
 );
 
+// Background tab component
 const BackgroundTab = () => (
   <div>
     <p>Working towards my Associates in CS at GWC.</p>
@@ -24,6 +27,7 @@ const BackgroundTab = () => (
   </div>
 );
 
+// Projects tab component
 const ProjectsTab = () => (
   <div>
     <p>
@@ -43,8 +47,10 @@ const ProjectsTab = () => (
   </div>
 );
 
+// Socials tab component
 const SocialsTab = () => (
   <div>
+    {/* GitHub */}
     <p>
       See GitHub:{" "}
       <a
@@ -56,6 +62,7 @@ const SocialsTab = () => (
       </a>
     </p>
     <br />
+    {/* LinkedIn */}
     <p>
       See LinkedIn:{" "}
       <a
@@ -71,6 +78,7 @@ const SocialsTab = () => (
   </div>
 );
 
+// Configuration object for all tabs
 const tabConfig = {
   Profile: {
     title: "Profile Information",
@@ -90,16 +98,21 @@ const tabConfig = {
   },
 };
 
+// Main page component
 export default function Home() {
+
+  // State to track the currently active tab
   const [activeTab, setActiveTab] = useState<keyof typeof tabConfig>("Profile");
 
   return (
     <div className="container">
       <div className="main-frame">
+        {/* Sidebar with profile picture and tab navigation */}
         <div className="sidebar">
           <div className="profile-pic">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Font_Awesome_5_solid_user.svg" alt="Profile" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Font_Awesome_5_solid_user.svg" alt="Profile" />
           </div>
+          {/* Map through tab config to create navigation buttons */}
           {Object.keys(tabConfig).map((tab) => (
             <div
               key={tab}
@@ -110,6 +123,7 @@ export default function Home() {
             </div>
           ))}
         </div>
+        {/* Main content area showing the active tab's content */}
         <div className="content">
           <h1 className="title">{tabConfig[activeTab].title}</h1>
           <div className="card description">{tabConfig[activeTab].component}</div>

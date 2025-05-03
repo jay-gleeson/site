@@ -4,6 +4,7 @@ import { Space_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 
+// Configures the font
 const font = Space_Mono({
   weight: ["400", "700"],
   subsets: ["latin"],
@@ -11,11 +12,13 @@ const font = Space_Mono({
   display: "swap",
 });
 
+// Defines metadata for browser tab information
 export const metadata: Metadata = {
   title: "Jay's Portfolio",
   description: "Created with Next.js and Tailwind CSS",
 };
 
+// Root layout component that wraps all pages
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -32,10 +35,12 @@ export default function RootLayout({
   );
 }
 
+// Header component containing nav and menu
 function Header() {
   return (
     <header>
       <div>
+        {/* Home button with moon icon */}
         <button className="menu-button">
           <Link href="/">
             <img
@@ -45,6 +50,7 @@ function Header() {
           </Link>
         </button>
       </div>
+      {/* Main nav links */}
       <nav>
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
@@ -54,15 +60,18 @@ function Header() {
   );
 }
 
+// Footer component with copyright and socials
 function Footer() {
   return (
     <footer>
       <div className="footer-content">
         <div>© 2025 Jay G</div>
         <div className="social-icons">
+          {/* LinkedIn */}  
           <a href="https://www.linkedin.com/in/jay-glee" target="_blank" rel="noopener noreferrer">
             <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" />
           </a>
+          {/* GitHub */}
           <a href="https://github.com/jay-gleeson" target="_blank" rel="noopener noreferrer">
             <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" />
           </a>

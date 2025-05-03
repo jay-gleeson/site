@@ -1,9 +1,7 @@
 import type { NextConfig } from "next";
-
 const nextConfig: NextConfig = {
-  async redirects() {
-    return [];
-  },
+
+  // Configures about page
   async rewrites() {
     return [
       {
@@ -12,9 +10,6 @@ const nextConfig: NextConfig = {
       },
     ];
   },
-  async headers() {
-    return [];
-  }
 };
 
 export default nextConfig;
