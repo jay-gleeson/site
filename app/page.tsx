@@ -10,20 +10,20 @@ const ProfileTab = () => (
   <div>
     <p>Hi! I'm Jay!</p>
     <br />
-    <p>I'm a current CS student in Southern California.</p>
+    <p>I'm an active CS student in Southern California.</p>
     <br />
-    <p>I am eager to put my skills towards good use!</p>
+    <p>I am eager to benefit my community with my skills!</p>
   </div>
 );
 
 // Background tab component
 const BackgroundTab = () => (
   <div>
-    <p>Working towards my Associates in CS at GWC.</p>
+    <p>Working towards my Associates degree in CS at GWC.</p>
     <br />
-    <p>Experience in Backend and Frontend development.</p>
+    <p>Experienced in both backend and frontend development.</p>
     <br />
-    <p>Particular interests include web design and ML.</p>
+    <p>My particular interests include web design and ML.</p>
   </div>
 );
 
@@ -42,7 +42,7 @@ const ProjectsTab = () => (
     <br />
     <p>
       The Big Bad Riding Hood 🐺: Text-based adventure game in C++, submitted as
-      the final project for C++1.
+      the final project for C++ Programming.
     </p>
   </div>
 );

@@ -7,9 +7,9 @@ export default function About() {
             <div className="card description">
               <p>Hi! I'm Jay!</p>
               <br />
-              <p>I'm a current CS student in Southern California.</p>
+              <p>I'm an active CS student in Southern California.</p>
               <br />
-              <p>I am eager to put my skills towards good use!</p>
+              <p>I am eager to benefit my community with my skills!</p>
             </div>
         </div>
       </div>
