@@ -35,9 +35,12 @@ This project can be deployed on platforms like **Vercel** or any other hosting s
 - **Wikimedia Commons**: [Wikimedia Commons](https://commons.wikimedia.org/wiki/) provided the icons used in this project.
 
 ## Site Images
-<img width="33%" alt="Image" src="https://github.com/user-attachments/assets/d4aeda2d-f853-4fae-9274-c632f149b1ae" />
-<img width="33%" alt="Image" src="https://github.com/user-attachments/assets/be9f74d9-85c6-41e7-9e57-0281897679f1" />
-<img width="33%" alt="Image" src="https://github.com/user-attachments/assets/f42a9261-b271-4490-9023-b9bba5a30973" />
+<div align="center">
+    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/d4aeda2d-f853-4fae-9274-c632f149b1ae" />
+    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/be9f74d9-85c6-41e7-9e57-0281897679f1" />
+    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/f42a9261-b271-4490-9023-b9bba5a30973" />
+</div>
+
 
 ---
 
