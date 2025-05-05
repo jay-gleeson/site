@@ -8,28 +8,40 @@ type TabKey = keyof typeof tabConfig;
 // Main page profile tab component
 const ProfileTab = () => (
   <div>
-    <p>Hi! I'm Jay!</p>
+    <h2>Welcome to My Portfolio!</h2>
+    <p>Hi! I'm Jay, a Computer Science student and aspiring software developer based in Southern California. I'm passionate about creating innovative solutions and making technology more accessible to everyone.</p>
     <br />
-    <p>I'm an active CS student in Southern California.</p>
-    <br />
-    <p>I am eager to benefit my community with my skills!</p>
-  </div>
+    <h3>Quick Facts</h3>
+    <ul>
+      <li>🎓 Computer Science Student at GWC</li>
+      <li>💻 Ambitious to be a Full-stack Dev</li>
+      <li>🤖 Machine Learning Enthusiast</li>
+      <li>🌱 Always Learning & Growing</li>
+    </ul>
+    </div>
 );
 
 // Background tab component
 const BackgroundTab = () => (
   <div>
-    <p>Working towards my Associates degree in CS at GWC.</p>
+    <h2>Educational Background</h2>
+    <p>Currently pursuing my Associates degree in Computer Science at Golden West College, where I'm building skills and techniques to transfer to a four-year university.</p>
     <br />
-    <p>Experienced in both backend and frontend development.</p>
-    <br />
-    <p>My particular interests include web design and ML.</p>
+    <h3>Areas of Interest</h3>
+    <ul>
+      <li>Web Development & UI/UX Design</li>
+      <li>Machine Learning & AI</li>
+      <li>Data Science & Analytics</li>
+      <li>Software Architecture</li>
+    </ul>
   </div>
 );
 
 // Projects tab component
 const ProjectsTab = () => (
   <div>
+    <h3>Some Projects</h3>
+    <br />
     <p>
       ASTRO ASL 📝: ML-powered live American Sign Language transcription tool
       using TensorFlow.
@@ -44,37 +56,44 @@ const ProjectsTab = () => (
       The Big Bad Riding Hood 🐺: Text-based adventure game in C++, submitted as
       the final project for C++ Programming.
     </p>
+    <br />
   </div>
 );
 
 // Socials tab component
 const SocialsTab = () => (
   <div>
-    {/* GitHub */}
-    <p>
-      See GitHub:{" "}
-      <a
-        href="https://github.com/jay-gleeson"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        https://github.com/jay-gleeson
-      </a>
-    </p>
+    <h2>Connect With Me</h2>
+    <p>Feel free to reach out through any of these platforms:</p>
     <br />
-    {/* LinkedIn */}
-    <p>
-      See LinkedIn:{" "}
-      <a
-        href="https://www.linkedin.com/in/jay-glee"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        https://www.linkedin.com/in/jay-glee
-      </a>
-    </p>
+    <div className="social-link">
+      <h3>GitHub</h3>
+      <p>
+        Check out my projects and contributions:{" "}
+        <a
+          href="https://github.com/jay-gleeson"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://github.com/jay-gleeson
+        </a>
+      </p>
+    </div>
     <br />
-    <p>More coming soon. . .</p>
+    <div className="social-link">
+      <h3>LinkedIn</h3>
+      <p>
+        Connect with me professionally:{" "}
+        <a
+          href="https://www.linkedin.com/in/jay-glee"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://www.linkedin.com/in/jay-glee
+        </a>
+      </p>
+      <br />
+    </div>
   </div>
 );
 
