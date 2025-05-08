@@ -56,14 +56,14 @@ header:hover, footer:hover {
     height: 3rem;
     border-radius: 2rem;
     background-color: var(--background-color);
-    transition: background-color 0.3s;
+    transition: all 0.3s;
     cursor: pointer;
     padding: 0;
     border: none;
 }
 
 .menu-button:hover {
-    background-color: var(--main-color);
+    box-shadow: 0 0 0 2px var(--main-color);
 }
 
 .menu-button a {
@@ -157,8 +157,8 @@ nav a:hover {
 }
 
 .profile-pic img {
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
     object-fit: contain;
     display: block;
     filter: invert(1);
