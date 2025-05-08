@@ -36,9 +36,9 @@ This project can be deployed on platforms like **Vercel** or any other hosting s
 
 ## Site Images
 <div align="center">
-    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/f7e31258-cccb-4674-b7ab-5151b8f6c2cc" />
-    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/73977643-6483-451c-ae44-6a49e3324864" />
-    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/95532918-f13b-4cf7-84cb-857c8152cc04" />
+    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/6472634c-8692-4cf6-b5b8-92f2ddeb5b92" />
+    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/79b3e011-1daa-449a-9227-e5b72c533d71" />
+    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/b13d4f9a-daca-454b-a05a-fc4a2be05b46" />
 </div>
 
 
