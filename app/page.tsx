@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 // Defines type for tab keys based on the tabConfig object
 type TabKey = keyof typeof tabConfig;
@@ -128,9 +129,9 @@ export default function Home() {
       <div className="main-frame">
         {/* Sidebar with profile picture and tab navigation */}
         <div className="sidebar">
-          <div className="profile-pic">
+          <Link href="/" className="profile-pic">
             <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Font_Awesome_5_solid_user.svg" alt="Profile" />
-          </div>
+          </Link>
           {/* Map through tab config to create navigation buttons */}
           {Object.keys(tabConfig).map((tab) => (
             <div
