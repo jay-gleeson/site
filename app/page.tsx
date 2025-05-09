@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 // Defines type for tab keys based on the tabConfig object
 type TabKey = keyof typeof tabConfig;
@@ -120,9 +121,18 @@ const tabConfig = {
 
 // Main page component
 export default function Home() {
-
-  // State to track the currently active tab
   const [activeTab, setActiveTab] = useState<keyof typeof tabConfig>("Profile");
+  const [isVisible, setIsVisible] = useState(true);
+  const pathname = usePathname();
+
+  const handleTabChange = (tab: keyof typeof tabConfig) => {
+    if (tab === activeTab) return;
+    setIsVisible(false);
+    setTimeout(() => {
+      setActiveTab(tab);
+      setIsVisible(true);
+    }, 250);
+  };
 
   return (
     <div className="container">
@@ -137,7 +147,7 @@ export default function Home() {
             <div
               key={tab}
               className={`tab ${activeTab === tab ? "active-tab" : ""}`}
-              onClick={() => setActiveTab(tab as keyof typeof tabConfig)}
+              onClick={() => handleTabChange(tab as keyof typeof tabConfig)}
             >
               {tab}
             </div>
@@ -145,8 +155,10 @@ export default function Home() {
         </div>
         {/* Main content area showing the active tab's content */}
         <div className="content">
-          <h1 className="title">{tabConfig[activeTab].title}</h1>
-          <div className="card description">{tabConfig[activeTab].component}</div>
+          <h1 className="title" style={{ opacity: isVisible ? 1 : 0 }}>{tabConfig[activeTab].title}</h1>
+          <div className="card description" style={{ opacity: isVisible ? 1 : 0 }}>
+            {tabConfig[activeTab].component}
+          </div>
         </div>
       </div>
     </div>
