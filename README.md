@@ -9,26 +9,21 @@
 ## Getting Started
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/jay-gleeson/site.git
     ```
-2. Install dependencies:
+2. Locate repo on local directory
+    ```bash
+    cd site
+    ```
+3. Install dependencies:
     ```bash
     npm install
     ```
-3. Run the development server:
+4. Run the development server:
     ```bash
     npm run dev
     ```
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
-
-## Project Structure ***
-- `pages/`: Contains all the Next.js pages.
-- `components/`: Reusable UI components.
-- `styles/`: Global and component-specific styles.
-- `public/`: Static assets like images and fonts.
-
-## Deployment ***
-This project can be deployed on platforms like **Vercel** or any other hosting service that supports Next.js.
 
 ## Acknowledgments
 - **Figma**: [Figma](https://www.figma.com/) was used to create and design the UI elements.
@@ -36,12 +31,14 @@ This project can be deployed on platforms like **Vercel** or any other hosting s
 
 ## Site Images
 <div align="center">
-    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/6472634c-8692-4cf6-b5b8-92f2ddeb5b92" />
-    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/79b3e011-1daa-449a-9227-e5b72c533d71" />
-    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/b13d4f9a-daca-454b-a05a-fc4a2be05b46" />
+    <img width="25%" alt="Homepage example with projects" src="https://github.com/user-attachments/assets/6472634c-8692-4cf6-b5b8-92f2ddeb5b92" />
+    <img width="25%" alt="About me section" src="https://github.com/user-attachments/assets/79b3e011-1daa-449a-9227-e5b72c533d71" />
+    <img width="25%" alt="Contact page" src="https://github.com/user-attachments/assets/b13d4f9a-daca-454b-a05a-fc4a2be05b46" />
 </div>
 
 
 ---
 
-*** - To be developed. . .
+## To-do
+- Introduce page structure including `components/` and `styles/` for better documentation.
+- Deploy site on Vercel.
