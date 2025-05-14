@@ -31,9 +31,9 @@
 
 ## Site Images 📸
 <div align="center">
-    <img width="25%" alt="Homepage example with projects" src="https://github.com/user-attachments/assets/6472634c-8692-4cf6-b5b8-92f2ddeb5b92" />
-    <img width="25%" alt="About me section" src="https://github.com/user-attachments/assets/79b3e011-1daa-449a-9227-e5b72c533d71" />
-    <img width="25%" alt="Contact page" src="https://github.com/user-attachments/assets/b13d4f9a-daca-454b-a05a-fc4a2be05b46" />
+    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/28f554d3-d03a-4b03-887b-2caef5f3a72b" />
+    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/5374aa35-f19c-42d7-9974-147ecca8fed0" />
+    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/959fb721-b68f-4559-ad1e-7d973c8e240b" />
 </div>
 
 ---
