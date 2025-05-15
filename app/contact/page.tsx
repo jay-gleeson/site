@@ -6,7 +6,7 @@ export default function Contact() {
           <h1 className="title">Contact Me</h1>
           <div className="card description">
             <h2>Get in Touch</h2>
-            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out through any of the following channels:</p>
+            <p>I' always have ideas worth sharing with others to create awesome projects! Feel free to reach out through any of the following channels:</p>
             <br />
             
             <div className="contact-section">
@@ -49,7 +49,6 @@ export default function Contact() {
               </p>
               <p className="note">I'm always open to collaboration on interesting projects!</p>
             </div>
-            <br />
           </div>
         </div>
       </div>

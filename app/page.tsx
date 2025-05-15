@@ -42,7 +42,7 @@ const BackgroundTab = () => (
 // Projects tab component
 const ProjectsTab = () => (
   <div>
-    <h3>Some Projects</h3>
+    <h3>Some of My Recent Projects</h3>
     <br />
     <p>
       ASTRO ASL 📝: ML-powered live American Sign Language transcription tool
