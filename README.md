@@ -1,6 +1,9 @@
 # Website Portfolio 💻✨
 💼 Portfolio to showcase myself, passions, and projects!
 
+## Vercel Deployment 🌐
+You can view the live deployment of the project here: [https://site-azure-one.vercel.app/](https://site-azure-one.vercel.app/).
+
 ## Features 🛠️
 - Built with **Next.js** 🚀 for server-side rendering and static site generation.
 - Styled using **Tailwind CSS** 🎨 for rapid UI development.
@@ -40,4 +43,4 @@
 
 ## To-do ✅
 - Introduce page structure including `components/` and `styles/` for better documentation 📖.
-- Deploy site on Vercel 🚀.
+- Add smooth page transitions.
