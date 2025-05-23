@@ -2,6 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 import { Space_Mono } from "next/font/google";
 import Link from "next/link";
+import Image from "next/image";
 import "./globals.css";
 
 // Configures the font
@@ -43,9 +44,11 @@ function Header() {
         {/* Home button with moon icon */}
         <button className="menu-button">
           <Link href="/">
-            <img
+            <Image
               src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg"
               alt="Menu"
+              width={24}
+              height={24}
             />
           </Link>
         </button>
@@ -69,11 +72,21 @@ function Footer() {
         <div className="social-icons">
           {/* LinkedIn */}  
           <a href="https://www.linkedin.com/in/jay-glee" target="_blank" rel="noopener noreferrer">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" />
+            <Image 
+              src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" 
+              alt="LinkedIn"
+              width={24}
+              height={24}
+            />
           </a>
           {/* GitHub */}
           <a href="https://github.com/jay-gleeson" target="_blank" rel="noopener noreferrer">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" />
+            <Image 
+              src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" 
+              alt="GitHub"
+              width={24}
+              height={24}
+            />
           </a>
         </div>
       </div>

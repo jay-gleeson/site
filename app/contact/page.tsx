@@ -6,7 +6,7 @@ export default function Contact() {
           <h1 className="title">Contact Me</h1>
           <div className="card description">
             <h2>Get in Touch</h2>
-            <p>I' always have ideas worth sharing with others to create awesome projects! Feel free to reach out through any of the following channels:</p>
+            <p>I&apos; always have ideas worth sharing with others to create awesome projects! Feel free to reach out through any of the following channels:</p>
             <br />
             
             <div className="contact-section">
@@ -47,7 +47,7 @@ export default function Contact() {
                   https://github.com/jay-gleeson
                 </a>
               </p>
-              <p className="note">I'm always open to collaboration on interesting projects!</p>
+              <p className="note">I&apos;m always open to collaboration on interesting projects!</p>
             </div>
           </div>
         </div>

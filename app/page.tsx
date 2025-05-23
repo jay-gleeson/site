@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 // Defines type for tab keys based on the tabConfig object
@@ -11,7 +12,7 @@ type TabKey = keyof typeof tabConfig;
 const ProfileTab = () => (
   <div>
     <h2>Welcome to My Portfolio!</h2>
-    <p>Hi! I'm Jay, a Computer Science student and aspiring software developer based in Southern California. I'm passionate about creating innovative solutions and making technology more accessible to everyone.</p>
+    <p>Hi! I&apos;m Jay, a Computer Science student and aspiring software developer based in Southern California. I&apos;m passionate about creating innovative solutions and making technology more accessible to everyone.</p>
     <br />
     <h3>Quick Facts</h3>
     <ul>
@@ -140,7 +141,12 @@ export default function Home() {
         {/* Sidebar with profile picture and tab navigation */}
         <div className="sidebar">
           <Link href="/" className="profile-pic">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Font_Awesome_5_solid_user.svg" alt="Profile" />
+            <Image 
+              src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Font_Awesome_5_solid_user.svg" 
+              alt="Profile"
+              width={100}
+              height={100}
+            />
           </Link>
           {/* Map through tab config to create navigation buttons */}
           {Object.keys(tabConfig).map((tab) => (
