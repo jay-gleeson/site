@@ -3,10 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
-
-// Defines type for tab keys based on the tabConfig object
-type TabKey = keyof typeof tabConfig;
 
 // Main page profile tab component
 const ProfileTab = () => (
@@ -28,7 +24,7 @@ const ProfileTab = () => (
 const BackgroundTab = () => (
   <div>
     <h2>Educational Background</h2>
-    <p>Currently pursuing my Associates degree in Computer Science at Golden West College, where I'm building skills and techniques to transfer to a four-year university.</p>
+    <p>Currently pursuing my Associates degree in Computer Science at Golden West College, where I&apos;m building skills and techniques to transfer to a four-year university.</p>
     <br />
     <h3>Areas of Interest</h3>
     <ul>
@@ -124,7 +120,6 @@ const tabConfig = {
 export default function Home() {
   const [activeTab, setActiveTab] = useState<keyof typeof tabConfig>("Profile");
   const [isVisible, setIsVisible] = useState(true);
-  const pathname = usePathname();
 
   const handleTabChange = (tab: keyof typeof tabConfig) => {
     if (tab === activeTab) return;
