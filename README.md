@@ -44,3 +44,4 @@ You can view the live deployment of the project here: [https://site-azure-one.ve
 ## To-do ✅
 - Introduce page structure including `components/` and `styles/` for better documentation 📖.
 - Add smooth page transitions.
+- Add mobile functionality.
