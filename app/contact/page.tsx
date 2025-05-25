@@ -5,22 +5,21 @@ export default function Contact() {
         <div className="content">
           <h1 className="title">Contact Me</h1>
           <div className="card description">
-            <h2>Get in Touch</h2>
-            <p>I&apos; always have ideas worth sharing with others to create awesome projects! Feel free to reach out through any of the following channels:</p>
+            <p>I&apos;m always have ideas worth sharing with others to create awesome projects! Feel free to reach out through any of the following channels:</p>
             <br />
             
             <div className="contact-section">
-              <h3>📧 Email</h3>
+              <h3>Email 📧</h3>
               <p>
                 For professional inquiries:{" "}
                 <a href="mailto:placeholder@site.dev">placeholder@site.dev</a>
               </p>
-              <p className="note">Thank you for your patience as I implement this feature.</p>
+              <p className="note">Thank you for your patience as I implement this feature. 🚧</p>
             </div>
             <br />
             
             <div className="contact-section">
-              <h3>💼 LinkedIn</h3>
+              <h3>LinkedIn 💼</h3>
               <p>
                 Connect with me professionally:{" "}
                 <a
@@ -36,7 +35,7 @@ export default function Contact() {
             <br />
             
             <div className="contact-section">
-              <h3>👨‍💻 GitHub</h3>
+              <h3>GitHub 👨‍💻</h3>
               <p>
                 Check out my projects and contributions:{" "}
                 <a

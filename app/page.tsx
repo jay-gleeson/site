@@ -3,19 +3,20 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { JSX } from "react";
 
 // Main page profile tab component
 const ProfileTab = () => (
   <div>
-    <h2>Welcome to My Portfolio!</h2>
+    <h2>Welcome to My Portfolio! 💼</h2>
     <p>Hi! I&apos;m Jay, a Computer Science student and aspiring software developer based in Southern California. I&apos;m passionate about creating innovative solutions and making technology more accessible to everyone.</p>
     <br />
-    <h3>Quick Facts</h3>
+    <h3>Quick Facts 📊</h3>
     <ul>
-      <li>🎓 Computer Science Student at GWC</li>
-      <li>💻 Ambitious to be a Full-stack Dev</li>
-      <li>🤖 Machine Learning Enthusiast</li>
-      <li>🌱 Always Learning & Growing</li>
+      <li>Computer Science Student at GWC. 🎓</li>
+      <li>Ambitious to be a Full-stack Dev. 💻</li>
+      <li>Machine Learning Enthusiast. 🤖</li>
+      <li>Always Learning & Growing. 🌱</li>
     </ul>
     </div>
 );
@@ -23,37 +24,38 @@ const ProfileTab = () => (
 // Background tab component
 const BackgroundTab = () => (
   <div>
-    <h2>Educational Background</h2>
+    <h2>Educational Background 🏫</h2>
     <p>Currently pursuing my Associates degree in Computer Science at Golden West College, where I&apos;m building skills and techniques to transfer to a four-year university.</p>
     <br />
-    <h3>Areas of Interest</h3>
+    <h3>Areas of Interest 💻</h3>
     <ul>
-      <li>Web Development & UI/UX Design</li>
-      <li>Machine Learning & AI</li>
-      <li>Data Science & Analytics</li>
-      <li>Software Architecture</li>
+      <li>Web Development & UI/UX Design.</li>
+      <li>Machine Learning & AI.</li>
+      <li>Data Science & Analytics.</li>
+      <li>Software Architecture.</li>
     </ul>
+    <br />
   </div>
 );
 
 // Projects tab component
 const ProjectsTab = () => (
   <div>
-    <h3>Some of My Recent Projects</h3>
+    <h3>Recent Projects 🚧</h3>
     <br />
     <p>
-      ASTRO ASL 📝: ML-powered live American Sign Language transcription tool
+      <strong>ASTRO ASL 📝</strong>: ML-powered live American Sign Language transcription tool
       using TensorFlow.
     </p>
     <br />
     <p>
-      Graduation Prediction Project 🎓: Data Science project correlating
+      <strong>Graduation Prediction Project 🎓</strong>: Data Science project correlating
       graduation rates with income statistics.
     </p>
     <br />
     <p>
-      The Big Bad Riding Hood 🐺: Text-based adventure game in C++, submitted as
-      the final project for C++ Programming.
+      <strong>The Big Bad Riding Hood 🐺</strong>: Text-based adventure game in C++, submitted as
+      the final project for C++ Programming 1.
     </p>
   </div>
 );
@@ -61,11 +63,11 @@ const ProjectsTab = () => (
 // Socials tab component
 const SocialsTab = () => (
   <div>
-    <h2>Connect With Me</h2>
+    <h2>Connect With Me 🔗</h2>
     <p>Feel free to reach out through any of these platforms:</p>
     <br />
     <div className="social-link">
-      <h3>GitHub</h3>
+      <h3>GitHub 👨‍💻</h3>
       <p>
         Check out my projects and contributions:{" "}
         <a
@@ -79,7 +81,7 @@ const SocialsTab = () => (
     </div>
     <br />
     <div className="social-link">
-      <h3>LinkedIn</h3>
+      <h3>LinkedIn 💼</h3>
       <p>
         Connect with me professionally:{" "}
         <a
@@ -90,6 +92,7 @@ const SocialsTab = () => (
           https://www.linkedin.com/in/jay-glee
         </a>
       </p>
+      <br />
     </div>
   </div>
 );
@@ -141,6 +144,7 @@ export default function Home() {
               height={100}
             />
           </Link>
+          <div className="divider"></div>
           {/* Map through tab config to create navigation buttons */}
           {Object.keys(tabConfig).map((tab) => (
             <div
