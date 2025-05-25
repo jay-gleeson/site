@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { JSX } from "react";
 
 // Main page profile tab component
 const ProfileTab = () => (
