@@ -55,7 +55,6 @@ const ProjectsTab = () => (
       The Big Bad Riding Hood 🐺: Text-based adventure game in C++, submitted as
       the final project for C++ Programming.
     </p>
-    <br />
   </div>
 );
 
@@ -91,7 +90,6 @@ const SocialsTab = () => (
           https://www.linkedin.com/in/jay-glee
         </a>
       </p>
-      <br />
     </div>
   </div>
 );
