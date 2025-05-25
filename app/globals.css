@@ -338,7 +338,7 @@ footer {
     }
 
     .profile-pic {
-        margin-bottom: 0;
+        margin: 0 0;
         flex-shrink: 0;
     }
 
@@ -421,6 +421,7 @@ footer {
     .profile-pic {
         width: 45px;
         height: 45px;
+        margin: 0 0;
     }
 
     .tab {
