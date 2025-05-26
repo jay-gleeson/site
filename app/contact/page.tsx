@@ -5,7 +5,7 @@ export default function Contact() {
         <div className="content">
           <h1 className="title">Contact Me</h1>
           <div className="card description">
-            <p>I&apos;m always have ideas worth sharing with others to create awesome projects! Feel free to reach out through any of the following channels:</p>
+            <p>I always have ideas worth sharing with others to create awesome projects! Feel free to reach out through any of the following channels:</p>
             <br />
             
             <div className="contact-section">

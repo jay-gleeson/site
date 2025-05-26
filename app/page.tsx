@@ -33,7 +33,6 @@ const BackgroundTab = () => (
       <li>Data Science & Analytics.</li>
       <li>Software Architecture.</li>
     </ul>
-    <br />
   </div>
 );
 
@@ -91,7 +90,6 @@ const SocialsTab = () => (
           https://www.linkedin.com/in/jay-glee
         </a>
       </p>
-      <br />
     </div>
   </div>
 );
