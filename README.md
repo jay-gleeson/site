@@ -34,9 +34,9 @@ You can view the live deployment of the project here: [https://site-azure-one.ve
 
 ## Site Images 📸
 <div align="center">
-    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/28f554d3-d03a-4b03-887b-2caef5f3a72b" />
-    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/5374aa35-f19c-42d7-9974-147ecca8fed0" />
-    <img width="25%" alt="Image" src="https://github.com/user-attachments/assets/959fb721-b68f-4559-ad1e-7d973c8e240b" />
+    <img width="25%" alt="About Me" src="https://github.com/user-attachments/assets/22383291-f48a-4a61-80ef-1e4892d89d27" />
+    <img width="25%" alt="Projects" src="https://github.com/user-attachments/assets/9099601c-0db7-48aa-94d7-89d40acee926" />
+    <img width="25%" alt="Contact Me" src="https://github.com/user-attachments/assets/e11370f6-7e4e-40fc-a9c8-adfc16ded2c8" />
 </div>
 
 ---
@@ -44,3 +44,4 @@ You can view the live deployment of the project here: [https://site-azure-one.ve
 ## To-do ✅
 - Add smooth page transitions.
 - Fix jarring page length differences.
+- Implement email on contact page
