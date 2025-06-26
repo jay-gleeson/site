@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+.about-page .description {
+    font-size: 0.85rem;
+}
+
+.about-page {
+    padding: 1.5rem !important;
+    margin: 0 auto;
+}

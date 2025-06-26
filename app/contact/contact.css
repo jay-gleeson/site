@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+.contact-page .description {
+    font-size: 0.9rem;
+}
+
+.contact-page {
+    padding: 1.5rem !important;
+    margin: 0 auto;
+}
