@@ -8,3 +8,15 @@
     padding: 1.5rem !important;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 860px) {
+    .content {
+        max-height: 800px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        max-height: 800px;
+    }
+}
