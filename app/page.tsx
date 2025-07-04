@@ -48,8 +48,8 @@ const ProjectsTab = () => (
     </p>
     <br />
     <p>
-      <strong>Graduation Prediction Project 🎓</strong>: Data Science project correlating
-      graduation rates with income statistics.
+      <strong>Financial Tech Pairs Trading 💳</strong>: Pairs Trading project to compare and 
+      profit off a Visa and Mastercard pair.
     </p>
     <br />
     <p>
