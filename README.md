@@ -1,3 +1,11 @@
+<div align="center">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/jay-gleeson/site">
+  <img src="https://img.shields.io/badge/Next.js-black?logo=next.js&amp;logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?logo=tailwind-css&amp;logoColor=white" alt="TailwindCSS">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&amp;logoColor=fff" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Vercel-%23000000.svg?logo=vercel&amp;logoColor=white" alt="Vercel">
+</div>
+
 # Website Portfolio 💻✨
 💼 Portfolio to showcase myself, passions, and projects!
 
