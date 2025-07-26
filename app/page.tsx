@@ -43,18 +43,18 @@ const ProjectsTab = () => (
     <h3>Recent Projects 🚧</h3>
     <br />
     <p>
-      <strong>ASTRO ASL 📝</strong>: ML-powered live American Sign Language transcription tool
-      using TensorFlow.
+      <strong>ASTRO ASL 📝</strong>: Machine learning-based ASL transcription system developed 
+      with TensorFlow.
     </p>
     <br />
     <p>
-      <strong>Financial Tech Pairs Trading 💳</strong>: Pairs Trading project to compare and 
-      profit off a Visa and Mastercard pair.
+      <strong>Financial Tech Pairs Trading 💳</strong>: Pairs trading strategy using Visa and 
+      Mastercard to identify and exploit price gaps.
     </p>
     <br />
     <p>
-      <strong>The Big Bad Riding Hood 🐺</strong>: Text-based adventure game in C++, submitted as
-      the final project for C++ Programming 1.
+      <strong>The Big Bad Riding Hood 🐺</strong>: Text-driven fairy tale adventure game with 
+      a twist, written in C++.
     </p>
   </div>
 );
