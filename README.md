@@ -12,11 +12,6 @@
 ## Vercel Deployment 🌐
 You can view the live deployment of the project here: [https://site-azure-one.vercel.app/](https://site-azure-one.vercel.app/).
 
-## Features 🛠️
-- Built with **Next.js** 🚀 for server-side rendering and static site generation.
-- Styled using **Tailwind CSS** 🎨 for rapid UI development.
-- Written in **TypeScript** 📝 for type safety and better developer experience.
-
 ## Getting Started 🚀
 1. Clone the repository:
     ```bash
@@ -36,9 +31,15 @@ You can view the live deployment of the project here: [https://site-azure-one.ve
     ```
 5. Open 🌍 [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
+## Tech Stack 🛠️
+- **Next.js**
+- **Tailwind CSS**
+- **TypeScript**
+
+
 ## Acknowledgments 🙌
-- **Figma** 🎨: [Figma](https://www.figma.com/) was used to create and design the UI elements.
-- **Wikimedia Commons** 📷: [Wikimedia Commons](https://commons.wikimedia.org/wiki/) provided the icons used in this project.
+- **Figma**: [Figma](https://www.figma.com/) was used to create and design the UI elements.
+- **Wikimedia Commons**: [Wikimedia Commons](https://commons.wikimedia.org/wiki/) provided the icons used in this project.
 
 ## Site Images 📸
 <div align="center">
